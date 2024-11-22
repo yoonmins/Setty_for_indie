@@ -5,6 +5,7 @@ import GuestBookView from './features/guestBookPage/pages/GuestBookView';
 import FooterComponents from './globalComponents/Footer';
 import SecondView from './features/secondVisitorPage/pages/SecondVisitorView';
 import NavBar from './globalComponents/Navbar';
+import ScrollToTop from './globalComponents/ScrollToTop';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/visitor" element={<GuestBookView/>} />
       </Routes>
       <FooterComponents/>
+      <ScrollToTop />
     </div>
   );
 }

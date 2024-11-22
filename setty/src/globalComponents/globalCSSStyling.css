@@ -51,7 +51,26 @@ footer{
     line-height: 105px; /* 131.25% */
 }
 
-/* footer a{
-    text-decoration: none;
-    color: rgb(44, 44, 44);
-} */
+/* top button */
+.top-btn-container {
+    position: fixed;
+    width: 100%;
+    bottom: 13%;
+    right: 2%;
+    z-index: 1000;
+  }
+
+  .top-btn{
+    position: absolute;
+    border: 0;
+    background:transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  
+  .top-btn:focus{ 	
+    border: none;
+    outline:none;
+    }
