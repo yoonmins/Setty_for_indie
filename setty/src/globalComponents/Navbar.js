@@ -12,7 +12,7 @@ const NavBar = () =>{
                 <img src={SettyLogo} alt="Setty logo" className="setty-nav-logo"/>
                 <Navbar.Brand href="/">
                     <h1 className="navbar-items-text">
-                        Setty
+                        Home
                     </h1>
                 </Navbar.Brand>
                 <Nav.Link href="/ui_design" className="navbar-items-text">
@@ -22,7 +22,7 @@ const NavBar = () =>{
                 </Nav.Link>
                 <Nav.Link href="/visitor" className="navbar-items-text">
                     <h1 className="navbar-items-text">
-                        방명록 작성
+                        방명록
                     </h1>
                 </Nav.Link>
             </Container>

@@ -1,0 +1,50 @@
+.ui-main-container-components{
+    margin-top: 8vh;
+}
+.ui-main-container-components-information{
+    margin-bottom: 8vh;
+}
+
+.ui-main-container-components-title-number{
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.388px; /* 155.484% */
+}
+
+.ui-main-container-components-title-text{
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.388px; /* 155.484% */
+}
+
+.ui-main-container-components-subtitle-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A5A5A5;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 100% */
+    margin-top: 1vh;    
+}
+.ui-main-container-components-subtitle-icons{
+    display: inline;
+    margin-right: 1rem;
+    width: 1vw;
+    height: 2vh;
+}
+/* 이미지 데이터 컴포넌트 구성 CSS*/
+.ui-main-container-components-img{
+    margin: 0 0 3vh 0;
+    width: 100vw;
+}
