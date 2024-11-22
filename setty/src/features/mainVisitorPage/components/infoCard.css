@@ -1,0 +1,127 @@
+.card{
+    border: 0;
+}
+.card-container{
+    height: 95vh;
+}
+.card-container .main-title{
+    margin-bottom: 0;
+}
+
+.sub-title{
+    color: #A5A5A5;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148px; /* 370% */
+    margin-top: 17vh;
+}
+
+.info-diagram-img{
+    height: 17vh;
+    width: 35vw;
+}
+
+.info-card{
+    border-radius: 91.4px;
+    background: rgba(217, 217, 217, 0.27);
+    border-color: #ffff;
+    border-width: 0;
+}
+
+.info-card:first-child{
+    margin-right: 10px;
+}
+
+.info-card:last-child{
+    margin-left: 10px;
+}
+
+.info-card h1{
+    text-align: start;
+    padding: 6% 0 3% 6%;
+}
+
+.h1-point-text{
+    color: #FF2176;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105px; /* 131.25% */   
+    text-align: start;
+}
+
+.h1-main-text{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105px;
+    text-align: start;
+}
+
+.main-info-text{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px; /* 170% */
+    letter-spacing: 0.5px;
+    text-align: start;
+    padding-left: 6%;
+    padding-bottom: 3%;
+}
+
+.footer-text{
+    color: #A5A5A5;
+    text-align: right;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.495px; /* 432.473% */
+    letter-spacing: 0.2px;
+    padding-bottom: 4%;
+    padding-right: 5%;
+}
+/* 카드 섹션 다음 CSS */
+.info-diagram-container{
+    width: 100vw;
+}
+
+.info-diagram-target-img{
+    width: 60vw;
+    height: 46vh;
+}
+
+.info-diagram-sub-container{
+    background: linear-gradient(to bottom, 
+    white 0%,           
+    rgba(255, 255, 255, 0) 10%, 
+    rgba(255, 255, 255, 0) 90%, 
+    white 100% 
+    ), 
+    url("https://setty-hongik-2024.s3.ap-northeast-2.amazonaws.com/middle_background_img.png") no-repeat center center;
+    margin-top: 10vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover
+}
+
+.info-diagram-sub-text .sub-title{
+    margin: 0;
+}
+
+.info-diagram-sub-img{
+    position: relative;
+    bottom: 4vh;
+    width: 65vw;
+}

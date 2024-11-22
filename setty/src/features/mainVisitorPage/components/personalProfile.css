@@ -1,0 +1,39 @@
+
+.personal-main-container{
+    background-color: white;
+}
+
+.personal-main-container-img{
+    width: 100vw;
+}
+
+.personal-profile-container{
+    width: 100vw;
+    height: 300vh;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.27);
+    margin-top: 10vh;
+}
+
+.personal-profile{
+    width: 100vw;
+    object-fit: cover;
+    display: block;
+}
+
+.personal-title{
+    position: relative;
+    left: 7vw; 
+    top: 5vh;
+    width: 100vw;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: start;
+}
+
+.personal-title:first-child{
+    padding-top: 6vh;
+}

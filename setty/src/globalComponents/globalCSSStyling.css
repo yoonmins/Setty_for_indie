@@ -1,0 +1,57 @@
+.main-title{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.388px; /* 155.484% */
+    margin-bottom: 8vh;
+}
+
+.sub-title{
+    color: #A5A5A5;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 148px; /* 370% */
+    margin-top: 17vh;
+}
+/* nav */
+.navbar{
+    display: flex;
+    border-bottom: 1px solid;
+    border-color: #ebebeb;
+}
+
+.navbar-items-text{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.setty-nav-logo{
+    width: 4vw;
+}
+
+/* footer */
+footer{
+    background-color: rgba(217, 217, 217, 0.08);
+}
+
+.footer-copyright-text{
+    color: rgba(217, 217, 217, 8);
+    font-family: Pretendard;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105px; /* 131.25% */
+}
+
+/* footer a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+} */

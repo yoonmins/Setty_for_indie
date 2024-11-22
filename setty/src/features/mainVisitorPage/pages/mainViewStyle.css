@@ -1,0 +1,45 @@
+.main-view-container{
+    padding-top: 10rem;
+    background: url("https://setty-hongik-2024.s3.ap-northeast-2.amazonaws.com/main_background_img.png") no-repeat;
+    height: 73vh;
+    max-height: 2499px;
+    width: 100vw;
+}
+
+.main-logo{
+    margin-top: 8vh;
+    width: 15vw;
+}
+
+.maintitle-intro p, .maintitle-intro h2{
+    text-align: start;
+}
+
+.subtitle-intro{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85px; /* 170% */
+    letter-spacing: 0.5px;
+    text-align: start;
+}
+
+.maintitle-intro h2{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.388px; /* 155.484% */
+}
+
+.maintitle-intro p{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 182.051px; /* 364.101% */   
+}

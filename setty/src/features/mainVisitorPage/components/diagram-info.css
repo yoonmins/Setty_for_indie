@@ -1,0 +1,12 @@
+.diagram-profile-container{
+    height: 240vh;
+    width: 100vw;
+}
+
+.diagram-profile-container .main-title{
+    margin-bottom: 0;
+}
+.diagram-profile{
+    position: relative;
+    bottom: 8vh;
+}
