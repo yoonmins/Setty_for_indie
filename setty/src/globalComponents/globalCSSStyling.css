@@ -20,13 +20,13 @@
 }
 /* nav */
 .navbar{
-    display: flex;
     border-bottom: 1px solid;
     border-color: #ebebeb;
 }
 
 .navbar-items-text{
-    font-size: 80px;
+    color: #A5A5A5;
+    font-size: 3em;
     font-weight: 500;
 }
 
@@ -43,7 +43,7 @@ footer{
     color: rgba(217, 217, 217, 8);
     font-family: Pretendard;
     text-align: center;
-    font-size: 60px;
+    font-size: 3em;
     padding-top: 3%;
     padding-bottom: 3%;
     font-style: normal;
