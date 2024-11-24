@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" element={<MainView />} />
-        <Route path="/ui_design" element={<SecondView />} />
-        <Route path="/visitor" element={<GuestBookView/>} />
+        <Route path="/Setty_for_indie" element={<MainView />} />
+        <Route path="/Setty_for_indie/ui_design" element={<SecondView />} />
+        <Route path="/Setty_for_indie/visitor" element={<GuestBookView/>} />
       </Routes>
       <FooterComponents/>
       <ScrollToTop />

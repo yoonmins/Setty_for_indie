@@ -9,17 +9,17 @@ const NavBar = () =>{
     return(
         <Navbar className="bg-body-tertiary setty-link-main">
             <Container>
-                <Nav.Link href="/ui_design" >
+                <Nav.Link href="/Setty_for_indie/ui_design" >
                     <h1 className="navbar-items-text">
                         UI Flow & Design
                     </h1>
                 </Nav.Link>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/Setty_for_indie">
                     <img src={settyLogo} alt="setty logo img" className="setty-nav-logo d-inline-block align-top"/>{' '}
                     {/* <div className="navbar-items-text">home</div> */}
                 </Navbar.Brand>
-                <Nav.Link href="/visitor">
-                    <h1 className="navbar-items-text">
+                <Nav.Link href="/Setty_for_indie/visitor">
+                    <h1 className="navbar-items-text" style={{display:"none"}}>
                         방명록
                     </h1>
                 </Nav.Link>
