@@ -56,6 +56,11 @@
 
 .carousel-img{
     width: auto;
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
+}
+
+.custom-prev-icon,
+.custom-next-icon {
+    width: 15rem;
 }
