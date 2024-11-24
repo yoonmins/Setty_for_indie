@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://yoonmins.github.io/Setty_for_indie/setty"
+    "homepage": "https://yoonmins.github.io/Setty_for_indie"
   },
   "eslintConfig": {
     "extends": [
