@@ -9,17 +9,17 @@ const NavBar = () =>{
     const settyLogo = "https://setty-hongik-2024.s3.ap-northeast-2.amazonaws.com/setty_logo.png";
     return(
         <Navbar className="bg-body-tertiary setty-link-main">
-            <Container>
-                <Nav.Link as={Link} to="/ui_design"> 
+            <Container >
+                <Nav.Link as={Link} to="/ui_design" > 
                     <h1 className="navbar-items-text">
-                        UI Flow & Design
+                        {/* UI Flow & Design */}
                     </h1>
                 </Nav.Link>
                 <Navbar.Brand as={Link} to="/">
-                    <img src={settyLogo} alt="setty logo img" className="setty-nav-logo d-inline-block align-top"/>{' '}
+                    <img src={settyLogo} alt="setty logo img" className="setty-nav-logo"/>
                     {/* <div className="navbar-items-text">home</div> */}
                 </Navbar.Brand>
-                <Nav.Link as={Link} to="/">
+                <Nav.Link as={Link} to="/" style={{display:"none"}}>
                     <h1 className="navbar-items-text" >
                         Project Setty
                     </h1>

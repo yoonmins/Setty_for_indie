@@ -2,15 +2,13 @@ import React from 'react';
 import './second-visitor-page.css';
 import UiIntroPageMainContaintForm from '../components/UIIntroPageMainContaintForm';
 import ImgCarousel from '../components/Carousel';
+import UiPageImage from '../components/ImageComponents';
 
 const SecondView = () =>{
+    //00 main img
+    const mainImg ="https://setty-hongik-2024.s3.ap-northeast-2.amazonaws.com/setty-second-page/ui_1.png";
     // 01 ui img data 
-    const firstSectionCarousel = [
-        {
-            src:"https://setty-hongik-2024.s3.ap-northeast-2.amazonaws.com/setty-second-page/ui_1.png", 
-            alt:"first img section"
-        }
-    ];
+    const firstSectionCarousel = "https://setty-hongik-2024.s3.ap-northeast-2.amazonaws.com/setty-second-page/ui_1.png";
     // 02 ui img data
     const secondSectionCarousel = [
         {
@@ -58,9 +56,10 @@ const SecondView = () =>{
 
     return(
         <div className='ui-design-components'>
+            <UiPageImage imgData={mainImg}/>
             <h3 className='ui-design-components-title'>UI Flow & Design</h3>
             <UiIntroPageMainContaintForm titleNumber={"01"} titleText={"AI 어시스턴트 Setty와의 교류"} showMusicIcon={true} showTouchIcon={false}/>
-            <ImgCarousel imgData={firstSectionCarousel} />
+            <UiPageImage imgData={firstSectionCarousel}/>
             <UiIntroPageMainContaintForm titleNumber={"02"} titleText={"AI가 분석한 아티스트의 공연"}  showMusicIcon={true} showTouchIcon={true}/>
             <ImgCarousel imgData={secondSectionCarousel} />
             <UiIntroPageMainContaintForm titleNumber={"03"} titleText={"새로운 공연을 위한 기획"} showMusicIcon={true} showTouchIcon={true}/>

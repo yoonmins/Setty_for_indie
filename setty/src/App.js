@@ -10,11 +10,15 @@ import ScrollToTop from './globalComponents/ScrollToTop';
 function App() {
   return (
       <div className="App">
-        <NavBar />
+        {/* <NavBar /> */}
         <Routes>
+          <Route path="/" element={<SecondView />} />
+          {/* 
+          요구사항 변경으로 인한 원페이지 제작
           <Route path="/" element={<MainView />} />
           <Route path="/ui_design" element={<SecondView />} />
-          <Route path="/visitor" element={<GuestBookView/>} />
+          <Route path="/visitor" element={<GuestBookView/>} /> 
+          */}
         </Routes>
         <FooterComponents/>
         <ScrollToTop />

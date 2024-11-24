@@ -41,7 +41,7 @@
 .subtitle-music-icons, .subtitle-touch-icons{
     display: inline;
     margin-right: 1rem;
-    width: 1vw;
+    width: 1.2vw;
     height: 2vh;
 }
 
@@ -62,5 +62,5 @@
 
 .custom-prev-icon,
 .custom-next-icon {
-    width: 15rem;
+    width: 10rem;
 }
