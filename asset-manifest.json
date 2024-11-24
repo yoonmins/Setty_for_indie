@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Setty_for_indie/static/css/main.4bec8ead.css",
-    "main.js": "/Setty_for_indie/static/js/main.cdd4d648.js",
+    "main.css": "/Setty_for_indie/static/css/main.956389da.css",
+    "main.js": "/Setty_for_indie/static/js/main.e482ce65.js",
     "static/js/453.0a296f35.chunk.js": "/Setty_for_indie/static/js/453.0a296f35.chunk.js",
     "index.html": "/Setty_for_indie/index.html",
-    "main.4bec8ead.css.map": "/Setty_for_indie/static/css/main.4bec8ead.css.map",
-    "main.cdd4d648.js.map": "/Setty_for_indie/static/js/main.cdd4d648.js.map",
+    "main.956389da.css.map": "/Setty_for_indie/static/css/main.956389da.css.map",
+    "main.e482ce65.js.map": "/Setty_for_indie/static/js/main.e482ce65.js.map",
     "453.0a296f35.chunk.js.map": "/Setty_for_indie/static/js/453.0a296f35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bec8ead.css",
-    "static/js/main.cdd4d648.js"
+    "static/css/main.956389da.css",
+    "static/js/main.e482ce65.js"
   ]
 }
