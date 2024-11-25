@@ -12,16 +12,16 @@ const UiIntroPageMainContaintForm = ({titleNumber, titleText, showMusicIcon, sho
                 <h1 className="ui-main-container-components-title-text">{titleText}</h1>
                 <span className="ui-main-container-components-subtitle-text">
                     {showMusicIcon && (
-                        <>
+                        <div className="subtitle-container">
                             <img src={musicIcons} alt="icon img" className="subtitle-music-icons" />
                             <h3>보이스 인터랙션</h3>
-                        </>
+                        </div>
                     )}
                     {showTouchIcon && (
-                        <>
+                        <div className="subtitle-container">
                             <img src={touchIcons} alt="icon img" className="subtitle-touch-icons" />
                             <h3>제스쳐 인터랙션</h3>
-                        </>
+                        </div>
                     )}
                 </span>
             </div>
