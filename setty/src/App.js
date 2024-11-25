@@ -6,6 +6,7 @@ import FooterComponents from './globalComponents/Footer';
 import SecondView from './features/secondVisitorPage/pages/SecondVisitorView';
 import NavBar from './globalComponents/Navbar';
 import ScrollToTop from './globalComponents/ScrollToTop';
+import ScrollToComponents from './globalComponents/ScrollToComponents';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           */}
         </Routes>
         <FooterComponents/>
+        <ScrollToComponents />
         <ScrollToTop />
       </div>
   );

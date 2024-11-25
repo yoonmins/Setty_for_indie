@@ -1,10 +1,42 @@
 .ui-design-components-title{
+    position: relative;
+    top: 8.5vh;
     color: #A5A5A5;
     text-align: center;
     font-family: Pretendard;
-    font-size: 0.7vw;
+    font-size: 0.8vw;
     font-style: normal;
     font-weight: 500;
     line-height: 148px; /* 370% */
     margin-top: 4vh;
 }
+
+.ref-components{
+    position: fixed;
+    top: 0.3vh;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+    border-radius: 3rem;
+    }
+
+    .ref-components-button{
+        width: 15vw;
+        height: 1vh;
+        font-size: 1vw;
+        background-color: rgba(165,165,165,0.3);
+        animation: borderColorChange 4s infinite; /* 애니메이션 추가 */
+        transition: background-color 0.8s ease; /* 부드러운 배경색 전환 */
+        border-radius: 20rem;
+        border: none;
+    }
+
+    .ref-components-button:hover {
+        animation: backgroundColorChange 0.5s infinite; /* 호버 시 애니메이션 */
+        background-color: rgba(216, 109, 255,0.3);
+    }

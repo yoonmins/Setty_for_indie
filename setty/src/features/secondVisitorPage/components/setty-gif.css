@@ -1,12 +1,33 @@
-@keyframes blink {
-    0%, 100% {
-      opacity: 1;
+.setty-container {
+    position: relative;
+    width: 100vw; /* 원하는 크기로 조정 */
+    height: 110vh;
+    margin-bottom: 5vh;
+}
+
+.setty-background {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.setty-gif {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    animation: fadeIn 2s ease-in-out; /* 추가 애니메이션 */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
-    50% {
-      opacity: 0;
+    to {
+        opacity: 1;
     }
-  }
-  
-  .setty-gif {
-    animation: blink 1s step-start infinite;
-  }
+}
