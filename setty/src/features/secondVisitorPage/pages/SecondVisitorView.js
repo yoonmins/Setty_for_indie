@@ -112,8 +112,10 @@ const SecondView = () =>{
                 </div>
                 <div ref={section5Ref}>
                     {/* <UiPageImage imgData={fiveSettyView}/> */}
-                    <h3 className='ui-design-components-title'>AI Bot</h3>
-                    <UiIntroPageMainContaintForm titleNumber={""} titleText={"AI 어시스턴트 Setty와의 교류"}  showMusicIcon={true} showTouchIcon={false}/>
+                    <div className='GIF-title-info'>
+                        <h3 className='ui-design-components-title'>AI Bot</h3>
+                        <UiIntroPageMainContaintForm titleNumber={""} titleText={"AI 어시스턴트 Setty와의 교류"}  showMusicIcon={true} showTouchIcon={false}/>
+                    </div>
                     <SettyGIFComponents />
                 </div>
                 <div ref={section6Ref}>
