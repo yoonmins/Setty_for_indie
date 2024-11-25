@@ -10,6 +10,9 @@
     line-height: 148px; /* 370% */
     margin-top: 4vh;
 }
+.ui-page-img-components{
+    margin: 30vh 0;
+}
 .GIF-title-info{
     position: relative;
     top: 14vh;

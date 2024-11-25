@@ -101,16 +101,16 @@ const SecondView = () =>{
                 <div ref={section1Ref}>
                     <UiPageImage imgData={firstSettyView}/>
                 </div>
-                <div ref={section2Ref}>
+                <div ref={section2Ref} className='ui-page-img-components'>
                 <UiPageImage imgData={secondSettyView}/>
                 </div>
-                <div ref={section3Ref}>
+                <div ref={section3Ref} className='ui-page-img-components'>
                 <UiPageImage imgData={thirdSettyView}/>
                 </div>
-                <div ref={section4Ref}>
+                <div ref={section4Ref} className='ui-page-img-components'>
                     <UiPageImage imgData={fourSettyView}/>
                 </div>
-                <div ref={section5Ref}>
+                <div ref={section5Ref} className='ui-page-img-components'>
                     {/* <UiPageImage imgData={fiveSettyView}/> */}
                     <div className='GIF-title-info'>
                         <h3 className='ui-design-components-title'>AI Bot</h3>
@@ -118,7 +118,7 @@ const SecondView = () =>{
                     </div>
                     <SettyGIFComponents />
                 </div>
-                <div ref={section6Ref}>
+                <div ref={section6Ref} className='ui-page-img-components'>
                 <UiPageImage imgData={sixSettyView}/>  
                 </div>          
                 {/* <UiIntroPageMainContaintForm titleNumber={"01"} titleText={"AI 어시스턴트 Setty와의 교류"} showMusicIcon={true} showTouchIcon={false}/>
