@@ -1,6 +1,6 @@
 .main-title{
     color: #000;
-    font-family: Pretendard;
+    font-family: "Pretendard" sans-serif;
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
@@ -11,7 +11,7 @@
 .sub-title{
     color: #A5A5A5;
     text-align: center;
-    font-family: Pretendard;
+    font-family: "Pretendard" sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
@@ -48,7 +48,7 @@ footer{
 
 .footer-copyright-text{
     color: rgba(217, 217, 217, 8);
-    font-family: Pretendard;
+    font-family: "Pretendard" sans-serif;
     text-align: center;
     font-size: 1vw;
     padding-top: 3%;

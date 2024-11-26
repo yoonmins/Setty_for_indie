@@ -7,6 +7,7 @@ import SecondView from './features/secondVisitorPage/pages/SecondVisitorView';
 import NavBar from './globalComponents/Navbar';
 import ScrollToTop from './globalComponents/ScrollToTop';
 import ScrollToComponents from './globalComponents/ScrollToComponents';
+import './assets/fonts/Pretendard/web/static/pretendard.css'
 
 function App() {
   return (
